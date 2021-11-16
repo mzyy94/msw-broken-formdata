@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>msw formdata</title>
+    <style>
+      main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+      }
+      img {
+        width: 30vw;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>formdata demo</h1>
+    <main>
+      <figure>
+        <figcaption>Original</figcaption>
+        <div>
+          <img src="image.bmp" alt="original" id="original" />
+        </div>
+      </figure>
+      <button>Upload</button>
+      <figure>
+        <figcaption>Response from msw</figcaption>
+        <div id="result"></div>
+      </figure>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>

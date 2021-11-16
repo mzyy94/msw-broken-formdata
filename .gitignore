@@ -1,0 +1,3 @@
+dist/main.js*
+dist/mockServiceWorker.js
+node_modules/
